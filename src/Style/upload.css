@@ -1,0 +1,47 @@
+/* style.css */
+body {
+  background-color: #d7d5d5d2;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+}
+form {
+  background-color: white;
+  padding: 30px;
+}
+form .input-group {
+  margin-bottom: 15px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input {
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.submit-btn {
+  width: 100%;
+  border: none;
+  background: rgb(150, 46, 39);
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Table-container {
+  display: flex;
+  justify-content: center;
+}
